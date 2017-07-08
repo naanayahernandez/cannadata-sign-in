@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cannadata Patient Sign In Form</title>
+
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  </head>
+  <body>
+    <div class="content">
+
+        <div class="store-name">
+            <h1>Store Name</h1>
+        </div>
+
+        <form class="form" id="start" action="stage2.html">
+            <div class="progressbar center-text">
+                <h1 class="progress-stages">1 out of 3</h1>
+                <h2>Personal Information</h2>
+            </div>
+
+            <div class="form-section" id="stage-contain">
+                <div class="form-left" id="stage-1">
+                    <input type="text" name="fname" required placeholder="First Name">
+                    <input type="text" name="lname" required placeholder="Last Name">
+                    <input type="text" name="dob" required placeholder="DOB">
+                    <input type="text" name="caliid" required placeholder="California ID">
+                    <input type="text" name="phone" required placeholder="Phone">
+                    <input type="text" name="email" required placeholder="Email">
+                </div>
+                <div class="form-right" id="stage-1">
+                    <input type="text" name="address" required placeholder="Address">
+                    <input type="text" name="city" required placeholder="City">
+                    <div id="state-zip">
+                        <input type="text" name="state" required placeholder="State">
+                        <input type="text" name="zip" required placeholder="Zipcode">
+                    </div>
+                    <div class="checkbox">
+                        <li><input id="deals-by-text" type="checkbox" name="deals-by-text" value="deals-by-text" checked="checked"><label for="deals-by-text">I would like to receive deals by text.</label></li>
+                        <li><input id="deals-by-email" type="checkbox" name="deals-by-email" value="deals-by-email" checked="checked"><label for="deals-by-email">I would like to receive deals by email.</label></li>
+                    </div>
+                    <a href="stage2.html"><button type="button" class="next-button" name="next" value="next">Next</button></a>
+                </div>
+            </div>
+        </form>
+
+        <div class"footer-box">
+            <div class="powered">
+                <p>Powered by</p>
+            </div>
+            <div class="logo">
+                <img src="images/cannadata_logo_white.png" height="94" width="67">
+            </div>
+            <br>
+        </div>
+    </div>
+
+  </body>
+</html>

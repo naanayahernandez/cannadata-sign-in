@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="246px" height="246px" viewBox="0 0 246 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>check-mark</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009933" offset="0%"></stop>
+            <stop stop-color="#99CC33" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="87.716166%" y1="17.3542769%" x2="12.2434433%" y2="82.2836542%" id="linearGradient-2">
+            <stop stop-color="#009933" offset="0%"></stop>
+            <stop stop-color="#99CC33" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Sign-in-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5" transform="translate(-261.000000, -107.000000)">
+            <g id="check-mark" transform="translate(264.000000, 110.000000)">
+                <path d="M59.5,174.5 C64.1383986,178.585974 73.5168591,186.068757 76.9125143,187.5 C80.3081695,188.931243 84.4692903,185.024366 84.4692903,185.024366 L200.532998,67.2744091 C204.01237,63.7444858 203.971391,58.0623286 200.441468,54.5829559 C196.911544,51.1035832 191.229387,51.1445625 187.750014,54.6744859 L76.9125143,165 L39.3203377,133.01298 C35.8155985,129.50824 30.1332936,129.50824 26.6285544,133.01298 C23.1238152,136.517719 23.1238152,142.200024 26.6285544,145.704763 C26.6285544,145.704763 54.8616014,170.414026 59.5,174.5 Z" id="Path-267-Copy" fill="url(#linearGradient-1)"></path>
+                <circle id="Oval-2" stroke="url(#linearGradient-2)" stroke-width="5" cx="120" cy="120" r="120"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

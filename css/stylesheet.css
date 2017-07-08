@@ -1,0 +1,247 @@
+@font-face {
+    font-family: DinLight;
+    src: url(../font/din_light.ttf);
+}
+
+@font-face {
+    font-family: DinMedium;
+    src: url(../font/din_medium.ttf);
+}
+
+
+body, html {
+    font-family: DinLight;
+    color: white;
+    background-color: #061726;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: DinMedium;
+    font-size: 35px;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: DinMedium;
+}
+
+h3 {
+    font-family: DinLight;
+    font-size: 20px;
+    margin: 0 0 40px 0;;
+}
+
+.final-message h1 {
+    text-align: center;
+    font-family: DinMedium;
+    font-size: 45px;
+    margin: 0 0 10px 0;
+}
+
+.final-message h2 {
+    font-family: DinLight;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.checkbox li label {
+    font-size: 18px;
+    margin: 0;
+}
+
+.store-name {
+    margin: 30px 0 55px 0;
+    text-align: center;
+}
+
+.progress-stages {
+    font-size: 55px;
+    color: #99cc33;
+    font-family: DinLight;
+    text-align: center;
+}
+
+.progressbar {
+    margin-bottom: 25px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.form-section {
+    /*border: 2px solid white;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0px;
+    /*flex-wrap: wrap;*/
+}
+
+.form-left, .form-right {
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    /*width: 40%;*/
+    flex: 0 0 40%;
+    min-height: 250px;
+    
+}
+
+#col {
+    align-self: center;
+    flex-direction: column;
+    width: 80%;
+    min-height: 500px;
+}
+
+.form input[type=text] {
+    border: 1px solid #061726;
+    font-family: DinLight;
+    padding: 20px 12px;
+    margin-bottom: 32px;
+	border-radius: 5px;
+	color:  #061726;
+	font-size: 15px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#061726;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color:#061726;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color:#061726;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color:#061726;
+}
+
+#state-zip {
+    display: flex;
+    justify-content: space-between;
+}
+
+#state-zip input {
+    width:40%;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.checkbox li {
+    display: inline-flex;
+    flex-direction: row;
+    flex: 1;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.checkbox input {
+    margin-right:20px;
+}
+
+input[type=checkbox], input[type=radio] {
+    vertical-align: middle;
+    /*position: relative;*/
+    bottom: 10px;
+    padding:10px;
+}
+
+a {
+    margin: 0 auto;
+    align-self: center;
+}
+
+button{
+    /*display: flex;*/
+    align-self: center;
+    background: linear-gradient(90deg, #99cc33, #009933);
+    color: white;
+    font-family: DinMedium;
+    font-size: 18px;
+    width: 130px;
+    height: 45px;
+    margin: 0px;
+    border: none;
+} 
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+    margin-bottom: 50px;
+}
+
+.final-message {
+    /*border: 2px solid palevioletred;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 100px 0px;
+}
+
+.final-message img {
+    margin-bottom: 100px;
+}
+
+.footer-box {
+    display: flex;
+    align-content: center;
+}
+
+.powered, .logo {
+    display: flex;
+    justify-content: center;
+}
+
+@media all and (max-width:600px) {
+    .form input[type=text] {
+        width: 80%;
+    }
+
+    .form-section {
+     flex-direction: column;
+    }
+
+    .form-left, .form-right{
+        flex: 1;
+        align-items: center;
+    }
+
+    .form-right h3 {
+        text-align: left;
+    }
+
+    #stage-contain {
+        min-height: 100vh; 
+    }
+
+    #stage-1 {
+        min-height: 75vh;
+    }
+
+    .checkbox {
+        margin-left: 8%;
+    }
+
+    #state-zip {
+        width: 85%;
+    }
+
+}
